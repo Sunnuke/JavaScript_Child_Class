@@ -26,8 +26,14 @@ class Ninja {
 
 // CHILD CLASS
 class Sensei extends Ninja {
+    // ATTRIBUTES
     constructor(name) {
         super(name);
         this.wisdom = 10
+    }
+    // METHODS
+    speakWisdom() {
+        super.health
+        console.log("It's on like Python!!!");
     }
 }
