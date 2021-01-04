@@ -36,7 +36,11 @@ class Sensei extends Ninja {
     }
     // METHODS
     speakWisdom() {
-        super.health
+        super.drinkSake();
         console.log("It's on like Python!!!");
     }
 }
+const superSensei = new Sensei("Master Splinter");
+superSensei.showStats();
+superSensei.speakWisdom();
+superSensei.showStats();
